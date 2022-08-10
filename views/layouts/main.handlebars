@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <!-- 載入css -->
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a id="homepage" class="item" href="/">回到首頁</a>
+      <div>
+      <a id="about" class="item" href="/about">About</a>
+      <a id="portfolio" class="item" href="/portfolio">Portfolio</a>
+      <a id="contact" class="item" href="/contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
+  <script src="/javascripts/main.js"></script>
+</body>
+
+</html>
